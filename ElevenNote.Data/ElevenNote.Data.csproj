@@ -66,6 +66,10 @@
     <Compile Include="Migrations\202202091659009_InitalMigration.designer.cs">
       <DependentUpon>202202091659009_InitalMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202202091825532_UpdateNoteOwnerID.cs" />
+    <Compile Include="Migrations\202202091825532_UpdateNoteOwnerID.designer.cs">
+      <DependentUpon>202202091825532_UpdateNoteOwnerID.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -80,6 +84,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202202091659009_InitalMigration.resx">
       <DependentUpon>202202091659009_InitalMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202091825532_UpdateNoteOwnerID.resx">
+      <DependentUpon>202202091825532_UpdateNoteOwnerID.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
