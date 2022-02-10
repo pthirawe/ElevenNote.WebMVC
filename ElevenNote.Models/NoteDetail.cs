@@ -11,6 +11,10 @@ namespace ElevenNote.Models
     {
         public int NoteId { get; set; }
         public string Title { get; set; }
+        [Display(Name ="Category Id")]
+        public int CategoryID { get; set; }
+        [Display(Name ="Category")]
+        public string CategoryName { get; set; }
         public string Content { get; set; }
         [Display(Name = "Created")]
         public DateTimeOffset CreatedUtc { get; set; }
