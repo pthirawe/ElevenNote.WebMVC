@@ -82,6 +82,7 @@ namespace ElevenNote.Services
                 entity.CategoryId = model.CategoryId;
                 entity.Content = model.Content;
                 entity.ModifiedUtc = DateTime.UtcNow;
+                entity.IsStarred = model.IsStarred;
 
                 return ctx.SaveChanges() == 1;
             }
